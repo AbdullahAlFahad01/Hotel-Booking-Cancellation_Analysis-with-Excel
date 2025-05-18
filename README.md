@@ -2,62 +2,64 @@
 
 ## 📌 Project Overview
 
-This project analyzes hotel booking data to uncover patterns in customer cancellations. The dataset includes reservations from **City Hotels** and **Resort Hotels**, classified by **guest type**, **room status**, **cancellation status**, and **booking month**.
-
-The analysis was conducted entirely in **Microsoft Excel** using:
-- ✅ Data Cleaning , Formula , Pivot Tables
-- ✅ Conditional Formatting for visual cues
-- ✅ Charts and visual dashboards
+This project analyzes hotel booking cancellations to identify trends and key influencing factors. Using Microsoft Excel, we perform in-depth data analysis through **Pivot Tables**, **Power Query**, and **Conditional Formatting**. The dataset includes bookings from both **City** and **Resort Hotels**, covering guest types, booking statuses, room preferences, and monthly arrival data.
 
 ---
 
 ## 🎯 Project Goals
 
-- Investigate cancellation patterns across hotel types, months, room preferences, and guest demographics.
-- Determine which segments have higher cancellation tendencies.
-- Present key findings using clear, interactive Excel dashboards.
-- Make data-driven suggestions to reduce booking cancellations.
+- Understand cancellation patterns across hotel types, guest types, and time periods.
+- Discover how room assignment preferences influence cancellations.
+- Use Excel’s advanced tools (Power Query, Pivot Tables) for cleaning and analyzing data.
+- Visualize the findings for better business decision-making.
 
 ---
 
-## 📊 Key Insights
+## 📊 Excel Features Used
 
-### 1️⃣ Hotel Type Cancellation
+- ✅ **Power Query**: Data cleaning, formatting, and transformation.
+- ✅ **Pivot Tables**: For aggregating and analyzing trends by month, guest type, room status, etc.
+- ✅ **Conditional Formatting**: Highlighting high-cancellation periods or groups.
+- ✅ **Charts & Dashboards**: For visual storytelling using column, line, and pie charts.
 
-- **City Hotels** experienced a significantly higher cancellation volume (33,102 = **75%**) compared to **Resort Hotels** (11,122 = **25%**).
-  
-### 2️⃣ Monthly Trends
+---
 
-- Cancellations peak during **August**, **July**, and **May**, with over 5,000 cancellations in each.
-- Lowest cancellations occur in **January** and **December**.
+## 📈 Key Insights
 
-### 3️⃣ Guest Type Behavior
+### 🏨 Cancellation by Hotel Type
+- **City Hotel** accounts for **75%** of total cancellations (33,102).
+- **Resort Hotel** has a lower share, with **11,122 cancellations (25%)**.
+- Indicates higher unpredictability or dissatisfaction in City Hotel bookings.
 
-- **Couples** form the majority of guests and also show the highest cancellation count (**32,424**).
-- **Family** and **Single** bookings are comparatively fewer and exhibit lower cancellation rates.
+### 📅 Cancellation by Month
+- **August** and **July** have the highest cancellations, aligning with peak travel seasons.
+- Lowest cancellations observed in **January** and **December**.
 
-### 4️⃣ Room Status Impact
+### 👥 Guest Type Analysis
+- **Couples** are the most frequent guests and have the highest cancellation count (32,424).
+- **Families** and **Singles** show significantly lower cancellation volumes.
 
-- **Desired rooms** ironically had more cancellations (43,422), which may indicate other service-level issues.
-- **Un-desired rooms** saw only 802 cancellations, hinting at fewer expectations or smaller volumes.
+### 🛏️ Room Preference Impact
+- Guests with **desired room status** cancelled more (43,422) than those with **un-desired status** (802), suggesting that cancellation is more influenced by external factors (e.g., price, location, or timing) rather than room preference.
 
+---
 
-## 🖼 Dashboards & Visuals
+## 🖼️ Visual Insights
 
-### 📌 Cancellation by Hotel Type and Month
+### Cancellation by Hotel Type & Month
+![Hotel Cancellation](Hotel-%20Cancellation.PNG)
 
-![Hotel Cancellation by Type and Month](./assets/Hotel-Cancellation.PNG)
+### Guest Type & Room Status Cancellation
+![Hotel Cancellation 2](Hotel-Cancellation%202.PNG)
 
-### 📌 Cancellation by Guest and Room Status
+---
 
-![Hotel Cancellation by Guest and Room](./assets/Hotel-Cancellation%202.PNG)
+## 🧠 Conclusion
 
-> ℹ️ Make sure the images are saved in a folder named `assets` inside your repository.
+By leveraging Excel’s analytical tools, we were able to uncover patterns in booking behavior and cancellation tendencies. This project demonstrates how simple tools like Excel can provide actionable business insights when used effectively.
 
+Hotel managers can use these findings to:
+- Focus retention strategies on high-risk periods (like August).
+- Review city hotel service issues.
+- Adjust marketing towards guest types with lower cancellation probabilities.
 
-## 📈 Business Recommendations
-
-- **Monitor City Hotel bookings closely** – especially during summer months.
-- Offer incentives for **couples** to confirm stays and reduce cancellations.
-- Evaluate guest expectations regarding **desired rooms** — potential mismatch in promised amenities?
-- Strategically overbook **low-cancellation segments** to balance losses.
